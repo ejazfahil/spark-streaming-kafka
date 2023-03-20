@@ -1,4 +1,4 @@
-"""Kafka consumer 2022-12-05"""
+"""Kafka consumer 2023-03-20"""
 from pyspark.sql import SparkSession
 from pyspark.sql.functions import from_json, col, window
 from pyspark.sql.types import StructType, StringType, DoubleType, TimestampType
