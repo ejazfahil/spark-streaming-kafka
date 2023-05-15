@@ -1,4 +1,4 @@
-# Architecture 2023-02-17
+# Architecture 2023-05-15
 
 ```
 Kafka (payments) → PySpark Structured Streaming → PostgreSQL (hourly_totals)
