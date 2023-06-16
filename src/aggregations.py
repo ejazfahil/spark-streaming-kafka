@@ -1,4 +1,4 @@
-"""Windowed aggregations 2023-03-20"""
+"""Windowed aggregations 2023-06-16"""
 from pyspark.sql.functions import window, sum as _sum, count, avg
 
 def hourly_totals(parsed_df):
