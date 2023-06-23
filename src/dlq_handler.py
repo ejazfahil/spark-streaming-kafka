@@ -1,4 +1,4 @@
-"""DLQ handler 2023-04-21"""
+"""DLQ handler 2023-06-23"""
 from pyspark.sql.functions import col, current_timestamp
 
 def route_to_dlq(df, error_col="parse_error"):
